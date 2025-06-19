@@ -118,16 +118,16 @@ Vertical Flip
 ![alt text](vertical_flip.png)
 
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
-
-| --- | --- | --- | --- | --- | --- |
-| --- | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) |
-| --- | --- | --- | --- | --- | --- |
+flip1.png
+| Picture | Picture 1 | Picture 2 | Picture 3 | Picture 4 | Picture 5 |
+| Unmoddified | ![alt text](unmodded1.png) | ![alt text](unmodded2.png) | ![alt text](unmodded3.png) | ![alt text](unmodded4.png) | ![alt text](unmodded5.png) |
+| Flipped | ![alt text](flip1.png) | ![alt text](flip2.png) | ![alt text](flip3.png) | ![alt text](flip4.png) | ![alt text](flip5.png) |
 | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- |
 
 <div class="row">
   <div class="column">
-    <img src="gaussian_noise.png" alt="Snow" style="width:30%">
+    <img src="unmodded1.png" alt="Snow" style="width:30%">
   </div>
   <div class="column">
     <img src="gaussian_noise.png" alt="Forest" style="width:30%">
