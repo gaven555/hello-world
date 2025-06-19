@@ -130,9 +130,10 @@ To test the affects of these distortions, we will rerun our model but only use 1
   </tr>
   <tr>
     <td><center>Model 2</td>
-    <td><center>brightness.png</td>
-    <td><center>brightness.png</td>
-    <td><center>brightness.png</td>
-    <td><center>brightness.png</td>
+    <td><center>![alt text](gaussian_noise.png)</td>
+    <td><center>![alt text](gaussian_noise.png)</td>
+    <td><center>![alt text](gaussian_noise.png)</td>
+    <td><center>![alt text](gaussian_noise.png)</td>
+    <td><center>![alt text](gaussian_noise.png)</td>
   </tr>
 </table>
