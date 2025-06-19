@@ -101,13 +101,9 @@ We can also validate these conclusions by looking at the precision recall curves
 
 ![alt text](PR1.png)
 
-![alt text](PR18.png)
+![alt text](PR8.png)
 
 ![alt text](PR11.png)
 
 <p>To understand the example better, we have added borders to the table.</p>
 
-</body>
-</html>
-
-![alt text](image.png)
