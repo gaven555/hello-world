@@ -120,9 +120,7 @@ Vertical Flip
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
 
 
-| --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- |
+
 
 
 <p float="left">
@@ -133,14 +131,3 @@ To test the affects of these distortions, we will rerun our model but only use 1
   <img src="/unmodded5.png" width="150" />
 </p>
 
-<div class="row">
-  <div class="column">
-    <img src="unmodded1.png" alt="Snow" style="width:30%">
-  </div>
-  <div class="column">
-    <img src="gaussian_noise.png" alt="Forest" style="width:30%">
-  </div>
-  <div class="column">
-    <img src="gaussian_noise.png" alt="Mountains" style="width:30%">
-  </div>
-</div>
