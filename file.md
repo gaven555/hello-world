@@ -1,6 +1,6 @@
 
 
-<h2>Task 1</h2>: 
+<h2>Tasks 1 and 2</h2>: 
 
 <b>.Compare Model 1 and Model 2 on the TechTrack dataset using standard object-detection metrics:</b>
 
@@ -105,5 +105,34 @@ We can also validate these conclusions by looking at the precision recall curves
 
 ![alt text](PR11.png)
 
-<p>To understand the example better, we have added borders to the table.</p>
 
+Next we will apply gaussian distortion, vertical flipping, and brightness reduction to see how this affects the detection. Below is an illustration of how these different distortion types were applied: 
+
+Gaussian Noise
+![alt text](gaussian_noise.png)
+
+Brightness Reduction 
+![alt text](brightness.png)
+
+Vertical Flip
+![alt text](vertical_flip.png)
+
+To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
+
+<table style="width:100%">
+  <tr>
+    <th>Picture</th>
+    <th> 1</th>
+    <th> 2</th>
+    <th> 3</th>
+    <th> 4</th>
+    <th> 5</th>
+  </tr>
+  <tr>
+    <td><center>Model 2</td>
+    <td><center>brightness.png</td>
+    <td><center>brightness.png</td>
+    <td><center>brightness.png</td>
+    <td><center>brightness.png</td>
+  </tr>
+</table>
