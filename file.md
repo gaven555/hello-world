@@ -126,11 +126,11 @@ To test the affects of these distortions, we will rerun our model but only use 1
 
 
 <p float="left">
-  <img src="/unmodded1.png" width="200" />
-  <img src="/unmodded2.png" width="200" /> 
-  <img src="/unmodded3.png" width="200" />
-  <img src="/unmodded4.png" width="200" />
-  <img src="/unmodded5.png" width="200" />
+  <img src="/unmodded1.png" width="150" />
+  <img src="/unmodded2.png" width="150" /> 
+  <img src="/unmodded3.png" width="150" />
+  <img src="/unmodded4.png" width="150" />
+  <img src="/unmodded5.png" width="150" />
 </p>
 
 <div class="row">
