@@ -1,6 +1,6 @@
 
 
-<h2>Tasks 1 and 2</h2>: 
+<h1>Tasks 1 and 2</h1>: 
 
 <b>.Compare Model 1 and Model 2 on the TechTrack dataset using standard object-detection metrics:</b>
 
@@ -109,15 +109,18 @@ We can also validate these conclusions by looking at the precision recall curves
 Next we will apply gaussian distortion, vertical flipping, and brightness reduction to see how this affects the detection. Below is an illustration of how these different distortion types were applied: 
 
 Gaussian Noise
-![alt text](gaussian_noise.png)zz
+![alt text](gaussian_noise.png)
+
 Brightness Reduction 
 ![alt text](brightness.png)
 
 Vertical Flip
 ![alt text](vertical_flip.png)
 
-To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
+<h1>Tasks 3</h1>: 
+<b>.Measure the impact of Gaussian Noise, Vertical Flips, and Brightness adjustments on Model 1’s performance.:</b>
 
+To analyze the affects of these distortions, we will show examples of images that were classified with our model and we will compare its classifications with the ground truths. For each distortion (e.g., flip, brightness reduction, or vertical flip), we will show the unmodified pictures and the modified pictures so that we can see the difference. For the pictures below, the blue boxes represent ground truths while the red boxes represent the model predictions. 
 
 
 <h2>Gaussian Noise</h2>
@@ -138,9 +141,6 @@ Images with Gaussian Noise
   <img src="/dist4.png" width="200" />
   <img src="/dist5.png" width="200" />
 </p>
-
-
-As seen above, when gaussian noise is introduced, we see a large reduction in the number of detections. 
 
 <h2>Reduced Brightness</h2>
 
@@ -182,3 +182,4 @@ Images that are Flipped
 
 <b>Analysis</b>
 
+As seen above, all three distortions resulted in a reduction in the number of detections. The distortion that had the greatest impact on our model's ability to detect objects was the vertical flip. Flipping the images reduced the number of detections by over half. The gaussian noise both reduced the number of detections and also resulted in an increase in the number of false positives. Redicing the brightness had a minimal impact on our model's ability to detect objects but did result in a slight reduction in the number of objects detected. 
