@@ -99,11 +99,11 @@ The classes that model 1 classifies better are: 2, 6, 14, 15, 18, and 19
 
 We can also validate these conclusions by looking at the precision recall curves for some of these classes: 
 
-![alt text](PR Curve Class 1.png)
+![alt text](PR1.png)
 
-![alt text](PR Curve Class 18.png)
+![alt text](PR18.png)
 
-![alt text](PR Curve Class 11.png)
+![alt text](PR11.png)
 
 <p>To understand the example better, we have added borders to the table.</p>
 
