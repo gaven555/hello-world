@@ -119,13 +119,17 @@ Vertical Flip
 
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
 
-| Unmoddified | ![alt text](unmodded1.png) | ![alt text](unmodded2.png) | ![alt text](unmodded3.png) | ![alt text](unmodded4.png) | ![alt text](unmodded5.png) |
-
-| flipped | ![alt text](flip1.png) | ![alt text](flip2.png) | ![alt text](flip3.png) | ![alt text](flip4.png) | ![alt text](flip5.png) |
 
 | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- |
+
+
+<p float="left">
+  <img src="/unmodded1.png" width="100" />
+  <img src="/unmodded2.png" width="100" /> 
+  <img src="/unmodded3.png" width="100" />
+</p>
 
 <div class="row">
   <div class="column">
