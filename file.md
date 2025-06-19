@@ -118,8 +118,11 @@ Vertical Flip
 ![alt text](vertical_flip.png)
 
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
-![alt text](gaussian_noise.png)
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 <div class="row">
   <div class="column">
