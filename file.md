@@ -109,8 +109,7 @@ We can also validate these conclusions by looking at the precision recall curves
 Next we will apply gaussian distortion, vertical flipping, and brightness reduction to see how this affects the detection. Below is an illustration of how these different distortion types were applied: 
 
 Gaussian Noise
-![alt text](gaussian_noise.png)
-
+![alt text](gaussian_noise.png)zz
 Brightness Reduction 
 ![alt text](brightness.png)
 
@@ -121,8 +120,9 @@ To test the affects of these distortions, we will rerun our model but only use 1
 
 
 
+<h2>Gaussian Noise</h2>
 
-
+Normal Images
 <p float="left">
   <img src="/unmodded1.png" width="200" />
   <img src="/unmodded2.png" width="200" /> 
@@ -130,4 +130,55 @@ To test the affects of these distortions, we will rerun our model but only use 1
   <img src="/unmodded4.png" width="200" />
   <img src="/unmodded5.png" width="200" />
 </p>
+Images with Gaussian Noise
+<p float="left">
+  <img src="/dist1.png" width="200" />
+  <img src="/dist2.png" width="200" /> 
+  <img src="/dist3.png" width="200" />
+  <img src="/dist4.png" width="200" />
+  <img src="/dist5.png" width="200" />
+</p>
+
+
+As seen above, when gaussian noise is introduced, we see a large reduction in the number of detections. 
+
+<h2>Reduced Brightness</h2>
+
+Normal Images
+<p float="left">
+  <img src="/unmodded1.png" width="200" />
+  <img src="/unmodded2.png" width="200" /> 
+  <img src="/unmodded3.png" width="200" />
+  <img src="/unmodded4.png" width="200" />
+  <img src="/unmodded5.png" width="200" />
+</p>
+Images with Birghtness Reduced
+<p float="left">
+  <img src="/brightness1.png" width="200" />
+  <img src="/brightness2.png" width="200" /> 
+  <img src="/brightness3.png" width="200" />
+  <img src="/brightness4.png" width="200" />
+  <img src="/brightness5.png" width="200" />
+</p>
+
+<h2>Flipped Images</h2>
+
+Normal Images
+<p float="left">
+  <img src="/unmodded1.png" width="200" />
+  <img src="/unmodded2.png" width="200" /> 
+  <img src="/unmodded3.png" width="200" />
+  <img src="/unmodded4.png" width="200" />
+  <img src="/unmodded5.png" width="200" />
+</p>
+Images that are Flipped
+<p float="left">
+  <img src="/flip1.png" width="200" />
+  <img src="/flip2.png" width="200" /> 
+  <img src="/flip3.png" width="200" />
+  <img src="/flip4.png" width="200" />
+  <img src="/flip5.png" width="200" />
+</p>
+
+<b>Analysis</b>
 
