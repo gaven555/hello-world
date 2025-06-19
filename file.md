@@ -119,11 +119,11 @@ Vertical Flip
 
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
 
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 
 <div class="row">
   <div class="column">
