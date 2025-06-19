@@ -118,22 +118,17 @@ Vertical Flip
 ![alt text](vertical_flip.png)
 
 To test the affects of these distortions, we will rerun our model but only use 1000 images to save computation time and analyze the results similar to the previous tasks.
+![alt text](gaussian_noise.png)
 
-<table style="width:100%">
-  <tr>
-    <th>Picture</th>
-    <th> 1</th>
-    <th> 2</th>
-    <th> 3</th>
-    <th> 4</th>
-    <th> 5</th>
-  </tr>
-  <tr>
-    <td><center>Model 2</td>
-    <td><center>![alt text](gaussian_noise.png)</td>
-    <td><center>![alt text](gaussian_noise.png)</td>
-    <td><center>![alt text](gaussian_noise.png)</td>
-    <td><center>![alt text](gaussian_noise.png)</td>
-    <td><center>![alt text](gaussian_noise.png)</td>
-  </tr>
-</table>
+
+<div class="row">
+  <div class="column">
+    <img src="(gaussian_noise.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="(gaussian_noise.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="(gaussian_noise.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
