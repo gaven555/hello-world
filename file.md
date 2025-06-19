@@ -121,8 +121,8 @@ To test the affects of these distortions, we will rerun our model but only use 1
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) |
+| ![alt text](vertical_flip.png) | ![alt text](vertical_flip.png) |
 
 <div class="row">
   <div class="column">
