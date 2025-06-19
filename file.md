@@ -123,12 +123,12 @@ To test the affects of these distortions, we will rerun our model but only use 1
 
 <div class="row">
   <div class="column">
-    <img src="(gaussian_noise.png" alt="Snow" style="width:100%">
+    <img src="gaussian_noise.png" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="(gaussian_noise.png" alt="Forest" style="width:100%">
+    <img src="gaussian_noise.png" alt="Forest" style="width:100%">
   </div>
   <div class="column">
-    <img src="(gaussian_noise.png" alt="Mountains" style="width:100%">
+    <img src="gaussian_noise.png" alt="Mountains" style="width:100%">
   </div>
 </div>
